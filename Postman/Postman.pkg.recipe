@@ -16,8 +16,6 @@ start again if you manually delete or move the package that this recipe creates.
         <key>NAME</key>
         <string>Postman</string>
     </dict>
-    <key>MinimumVersion</key>
-    <string>0.3.1</string>
     <key>ParentRecipe</key>
     <string>com.github.bnpl.autopkg.download.postman</string>
     <key>Process</key>
