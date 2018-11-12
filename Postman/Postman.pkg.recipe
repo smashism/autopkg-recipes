@@ -26,7 +26,7 @@ start again if you manually delete or move the package that this recipe creates.
             <key>Arguments</key>
             <dict>
                 <key>predicate</key>
-                <string>download_changed == FALSE</string>
+                <string>new_package_request == False</string>
             </dict>
         </dict>
         <dict>
