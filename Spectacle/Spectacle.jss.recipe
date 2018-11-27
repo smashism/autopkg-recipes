@@ -23,7 +23,7 @@
 		<key>SELF_SERVICE_DESCRIPTION</key>
 		<string>Move and resize windows with ease. Window control with simple and customizable keyboard shortcuts.</string>
 		<key>SELF_SERVICE_ICON</key>
-		<string>Spectacle.png</string>
+		<string>%RECIPE_DIR%/Spectacle.png</string>
 		<key>Comment</key>
 		<string>Note: PlistReader without variable injection in AutoPkg requires setting "version" input key to an empty string, as below.</string>
 		<key>version</key>
@@ -35,6 +35,17 @@
 	<string>com.github.jaharmi.pkg.Spectacle</string>
 	<key>Process</key>
 	<array>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>predicate</key>
+				<string>new_package_request == False</string>
+			</dict>
+			<key>Comment</key>
+			<string>Checks if the file already exists in the cache</string>
+			<key>Processor</key>
+			<string>StopProcessingIf</string>
+		</dict>
 		<dict>
 			<key>Arguments</key>
 			<dict>
