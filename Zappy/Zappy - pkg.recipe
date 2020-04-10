@@ -16,7 +16,7 @@
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-	<string>com.homedepot.download.zappy</string>
+	<string>com.github.smashism-recipes.download.zappy</string>
 	<key>Process</key>
 	<array>
 		<dict>
