@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Download the latest version of the Zappy desktop app.</string>
     <key>Identifier</key>
-    <string>com.homedepot.download.zappy</string>
+    <string>com.github.smashism-recipes.download.zappy</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
